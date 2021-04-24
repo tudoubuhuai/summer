@@ -1,9 +1,8 @@
 body{
     background-image: url(image/bg-snow2.gif);
     margin: 3% 10% 10% 10%;
-    border: white dotted 1px;
+    border: white dotted 2px;
     padding: 50px;
-    font-size: small;
 }
 
 h1{
@@ -22,11 +21,6 @@ h2{
 
 .change{
 	width:100%;
-	height:auto;
-}
-
-.three{
-	width:30%;
 	height:auto;
 }
 
