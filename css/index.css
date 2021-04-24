@@ -24,7 +24,7 @@ h2{
 	height:auto;
 }
 
-img:hover{
+img.cc:hover{
     transform: scale(1.5); 
     width: 20%;
     height: auto;
