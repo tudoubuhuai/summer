@@ -26,6 +26,11 @@ h2{
 }
 
 .three{
-	width:33%;
+	width:30%;
 	height:auto;
+}
+
+.fix{
+	width:200;
+	height:400;
 }
