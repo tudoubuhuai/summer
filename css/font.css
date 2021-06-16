@@ -1,0 +1,98 @@
+/* 字体命名规则：首字母大写的CamelCase */
+/* 字体选择：01:Woff-02:OTF-03:TTF */
+
+/* body 默认font-awesome字体，符号较多，可以免用svg符号，其他字体均需声明 */
+
+/* 定义文本字体为思源字体，分别为普通文本字体，粗黑体，细黑体 */
+
+/* 定义代码字体为JetBrainsMono字体，分别为普通，粗体，细体 */
+/* JetBrainsMono字体汉字类似于仿宋体，英文及数字类似于雅黑 */
+/* JetBrainsMono为连体，使用中；JetBrainsMonoNL为非连体，未用 */
+
+/* 定义特殊文本字体为宋体字，无粗细体之分 */
+/* 定义两种特殊字体备用：站酷文艺体和站酷小薇LOGO体 */
+
+@font-face {
+  font-family: "Awesome";
+  font-display: swap;
+  src: url(fonts/font-awesome/fonts/fontawesome-webfont.woff2),
+    url(fonts/font-awesome/fonts/fontawesome-webfont.woff),
+    url(fonts/font-awesome/fonts/FontAwesome.otf),
+    url(fonts/font-awesome/fonts/fontawesome-webfont.svg),
+    url(fonts/font-awesome/fonts/fontawesome-webfont.ttf);
+}
+/* font-awesome字体，body 默认 */
+
+@font-face {
+  font-family: "Light";
+  font-display: auto;
+  src: url(fonts/CNExtraLight.otf);
+}
+/* 思源字体，细黑体，用于普通文本 */
+
+@font-face {
+  font-family: "Regular";
+  font-display: auto;
+  src: url(fonts/CNRegular.otf);
+}
+/* 思源字体，普通粗细字体 */
+
+@font-face {
+  font-family: "Bold";
+  font-display: auto;
+  src: url(fonts/CNBold.otf);
+}
+/* 思源字体，粗黑体，用于标识、显目 */
+
+@font-face {
+  font-family: "CodeLight";
+  font-display: auto;
+  src: url(fonts/JetBrainsMono/JetBrainsMono-Thin.woff2),
+    url(fonts/JetBrainsMono/JetBrainsMono-Thin.ttf);
+}
+/* JetBrainsMono 细体 */
+
+
+@font-face {
+  font-family: "Code";
+  font-display: auto;
+  src: url(fonts/JetBrainsMono/JetBrainsMono-Regular.woff2),
+    url(fonts/JetBrainsMono/JetBrainsMono-Regular.ttf);
+}
+/* JetBrainsMono 正常，一般代码 */
+
+
+@font-face {
+  font-family: "CodeBold";
+  font-display: auto;
+  src: url(fonts/JetBrainsMono/JetBrainsMono-Bold.woff2),
+    url(fonts/JetBrainsMono/JetBrainsMono-Bold.ttf);
+}
+/* JetBrainsMono 粗体 强调说明*/
+
+
+@font-face {
+  font-family: "Song";
+  font-display: auto;
+  src: url(fonts/ZiTiQuanXinYiJiXiangSong.ttf);
+}
+/* 字体圈欣意吉祥宋，瘦体，类似仿宋但更好看 */
+
+
+@font-face {
+  font-family: "WenYi";
+  font-display: auto;
+  src: url(MdFonts/ZhanKuWenYiTi.ttf);
+}
+/* 备用字体，站酷文艺体 */
+@font-face {
+  font-family: "XiaoWei";
+  font-display: auto;
+  src: url(fonts/ZhanKuXiaoLOGOTi.otf);
+}
+/* 备用字体，站酷小薇LOGO体 */
+
+:root {
+  /*浏览器默认字体大小为16px，这里改成 1 rem = 10px*/
+  font-size: 62.5%;
+}
